@@ -1,5 +1,7 @@
 # intel_assignment
 
+## running
+
 ``` shell
 sh run.sh
 ```
