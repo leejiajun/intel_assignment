@@ -1,5 +1,5 @@
 # intel_assignment
-This source is for the interviewing of INTEL.
+This source code is for the interviewing of INTEL.
 
 ## running
 ``` shell
