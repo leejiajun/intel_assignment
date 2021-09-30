@@ -72,48 +72,6 @@ Average cycle : 55251988.8
 Average second: 2.402260e-02
 GFlop         : 0.0720
 GFlop/s       : 2.9970
-
-Name: relu
-Average cycle : 132116989.4
-Average second: 5.744217e-02
-GFlop         : 0.0131
-GFlop/s       : 0.2282
-
-Name: relu_omp
-Average cycle : 161830332.8
-Average second: 7.036101e-02
-GFlop         : 0.0131
-GFlop/s       : 0.1863
-
-Name: relu_simd_omp
-Average cycle : 22298009.4
-Average second: 9.694787e-03
-GFlop         : 0.0131
-GFlop/s       : 1.3520
-
-Name: relu_simd_unrolling
-Average cycle : 21837244.6
-Average second: 9.494454e-03
-GFlop         : 0.0131
-GFlop/s       : 1.3805
-
-Name: max_pool2d_k2s2
-Average cycle : 78454523.6
-Average second: 3.411066e-02
-GFlop         : 0.0063
-GFlop/s       : 0.1844
-
-Name: max_pool2d_k2s2_omp
-Average cycle : 52021273.8
-Average second: 2.261795e-02
-GFlop         : 0.0063
-GFlop/s       : 0.2782
-
-Name: max_pool2d_k2s2_simd_omp
-Average cycle : 51135153.8
-Average second: 2.223268e-02
-GFlop         : 0.0063
-GFlop/s       : 0.2830
 ```
 
 ## reference
