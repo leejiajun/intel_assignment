@@ -12,6 +12,13 @@ gcc -std=gnu99 -mavx2 -mfma -mfma4 -fopenmp -lm \
     -o main.o \
     && ./main.o
 ```
+or
+``` shell
+gcc -O3 -std=gnu99 -mavx2 -mfma -mfma4 -fopenmp -lm \
+    trace.c tensor.c im2col.c conv2d.c pooling.c relu.c main.c \
+    -o main.o \
+    && ./main.o
+```
 
 ## tensor storage
 In my design, every matrix is corresponding to a one-dimensional array, as shown in Figure 1. Given a 3-D matrix with a 3x4x5 shape on the left side, my program stores each element into memory along channel direction, to form a sequential one-dimensional space on the right side of Figure 1. To a 4-D matrix, the storage way almost goes like a 3-D matrix, as shown in Figure 2. I already put the index on the element square, and hope it can help to understand.
